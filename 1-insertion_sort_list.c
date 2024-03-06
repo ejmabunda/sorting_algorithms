@@ -15,7 +15,7 @@ void insertion_sort_list(listint_t **list)
 	listint_t *head;
 	int ix;
 
-	if (*list == NULL)
+	if (*list == NULL || list == NULL)
 		return;  /* Nothing to sort. */
 
 	/* Start at the second node. */
