@@ -1,2 +1,5 @@
 # Ignore emacs' temp files
 *~
+
+# Ignore main files; for testing only.
+*main*

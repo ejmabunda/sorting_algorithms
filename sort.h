@@ -37,7 +37,7 @@ void swap_list(listint_t **list, listint_t *head, int ix);
 /* Sorts a doubly linked list of integers in ascending
  * order using the selection sort algorithm
  */
-void selectionn_sort(int *array, size_t size);
+void selection_sort(int *array, size_t size);
 
 /* Sorts an array of integers in ascending
  * order using the quick sort algorithm
