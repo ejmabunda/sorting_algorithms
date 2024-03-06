@@ -26,4 +26,33 @@ void print_array(const int *array, size_t size);
  */
 void bubble_sort(int *array, size_t size);
 
+/* Sorts a doubly linked list of integers in ascending
+ * order using the insertion sort algorithm
+ */
+void insertion_sort_list(listint_t **list);
+
+/* Swaps two adjacent nodes of a doubly linked list */
+void swap_list(listint_t **list, listint_t *head, int ix);
+
+/* Sorts a doubly linked list of integers in ascending
+ * order using the selection sort algorithm
+ */
+void selectionn_sort(int *array, size_t size);
+
+/* Sorts an array of integers in ascending
+ * order using the quick sort algorithm
+ */
+void quick_sort(int *array, size_t size);
+
+/* Helper function the the quick_sort function,
+ * handles the sorting
+ */
+void quick_sort_helper(int *array, size_t size, int low, int high);
+
+/* Lomuto partition implementation */
+int lomuto_partition(int *array, size_t size, int low, int high);
+
+/* Swaps two items in an array. */
+void swap_array(int *array, int a, int b);
+
 #endif
